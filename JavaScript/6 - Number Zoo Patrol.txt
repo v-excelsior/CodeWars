@@ -1,8 +1,6 @@
 function findNumber(array) {
-  const copy = Array.from(Array(array.length + 2).keys())
-  copy.shift()
+  const sum = (array.length + 1) * (array.length + 2) / 2
+  const actualSun = array.reduce((acc,el) => acc + el, 0)
   
-  array.forEach(el => copy[el-1] = undefined )
-
-  return copy.find(el => el !== undefined)
+  return sum - actualSun
 }
