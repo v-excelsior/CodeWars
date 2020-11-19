@@ -1,7 +1,9 @@
 <script>
-	export let name;
+	import { Card } from './components'
+
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Hello!</h1>
+	<Card/>
 </main>
