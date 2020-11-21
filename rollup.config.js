@@ -4,6 +4,8 @@ import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 
+import css from 'rollup-plugin-postcss';
+
 import autoPreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
 
@@ -40,7 +42,6 @@ export default {
 	},
 	plugins: [
 		typescript({ sourceMap: !production }),
-
 		svelte({
 			preprocess: autoPreprocess({
 					defaults: {
@@ -54,7 +55,6 @@ export default {
 				css.write('bundle.css');
 			}
 		}),
-
 		resolve({
 			browser: true,
 			dedupe: ['svelte']
@@ -66,7 +66,9 @@ export default {
 
 		!production && livereload('public'),
 
-		production && terser()
+		production && terser(),
+
+		css()
 	],
 	watch: {
 		clearScreen: false

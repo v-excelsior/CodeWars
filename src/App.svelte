@@ -2,14 +2,8 @@
 	import { Card, Header } from './components'
 </script>
 
-<style>
-	* {
-		color:green;
-	}
-</style>
-
 <main>
-	<Header></Header>
-	<h1>Hello! 123</h1>
+	<Header/>
+	<h1 class="xxx">Hello!</h1>
 	<Card/>
 </main>
