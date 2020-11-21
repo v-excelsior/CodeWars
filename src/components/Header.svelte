@@ -7,7 +7,7 @@
         <img src="assets/logo-36.png" alt="CodeWars logo">
 
     </div>
-    <span class="header_name">V-EXCELSIOR</span>
+    <span class="header_name">v - excelsior</span>
 </header>
 
 <style lang="scss">
@@ -20,8 +20,9 @@
     padding: 8px;
     background-color: #222;
 
-    &_name{
-      color:red;
+    &_name {
+      color: red;
+      padding: 0 20px;
     }
   }
 </style>
