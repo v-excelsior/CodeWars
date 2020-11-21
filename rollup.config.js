@@ -45,6 +45,7 @@ export default {
 			preprocess: autoPreprocess({
 					defaults: {
 						script: 'typescript',
+						style : 'scss'
 					}
 				},
 			),
