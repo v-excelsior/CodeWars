@@ -11,6 +11,8 @@
 </header>
 
 <style lang="scss">
+  @import './src/styles/vars.scss';
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -18,22 +20,22 @@
     height: 55px;
     width: 100%;
     padding: 8px;
-    background-color: #222;
+    background-color: $surface-primary;
     font-size: 18px;
 
-    &_main{
+    &_main {
       display: flex;
       align-items: center;
     }
 
-    &_heading{
+    &_heading {
       padding: 0 12px;
 
-      color:#bb432c;
+      color: $accent;
     }
 
     &_name {
-      color: #bb432c;
+      color: $accent;
       padding: 0 20px;
     }
   }
