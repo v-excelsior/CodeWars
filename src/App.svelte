@@ -1,12 +1,11 @@
 <script>
-	import { Card, Header } from './components'
 	import Modal from 'svelte-simple-modal';
+	import { Content } from './components'
+
 </script>
 
 <main>
 	<Modal>
-		<Header/>
-		<h1 class="xxx">Hello!</h1>
-		<Card/>
+		<Content/>
 	</Modal>
 </main>

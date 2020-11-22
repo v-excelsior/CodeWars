@@ -1,1 +1,7 @@
-<p>Hello World 123</p>
+<script>
+  export let message;
+</script>
+
+<p>
+    🎉 {message} 🍾
+</p>

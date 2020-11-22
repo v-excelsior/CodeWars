@@ -7,7 +7,6 @@ import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-postcss';
 
 import autoPreprocess from 'svelte-preprocess';
-import typescript from '@rollup/plugin-typescript';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -33,7 +32,7 @@ function serve() {
 }
 
 export default {
-	input  : 'src/main.ts',
+	input  : 'src/main.js',
 	output : {
 		sourcemap: true,
 		format   : 'iife',
@@ -41,11 +40,9 @@ export default {
 		file     : 'public/build/bundle.js'
 	},
 	plugins: [
-		typescript({ sourceMap: !production }),
 		svelte({
 			preprocess: autoPreprocess({
 					defaults: {
-						script: 'typescript',
 						style : 'scss'
 					}
 				},
