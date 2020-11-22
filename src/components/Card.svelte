@@ -1,6 +1,5 @@
 <script lang="ts">
     const name = 'buu'
-
 </script>
 
 <template>
