@@ -1,5 +1,12 @@
 <script>
+  import { getContext } from 'svelte';
+  import Links from './Links.svelte'
 
+  const { open } = getContext('simple-modal');
+
+  const showLinks = () => {
+    open(Links, { message: "It's a modal!" });
+  }
 </script>
 
 <header class="header">
@@ -9,7 +16,7 @@
             <span class="header_heading">Codewars | stats</span>
         </div>
 
-         <button class="header_name" title="CHANGE MEEEEEEE">v - excelsior</button>
+         <button class="header_name" on:click={showLinks} title="CHANGE MEEEEEEE">v - excelsior</button>
     </div>
 </header>
 
