@@ -16,7 +16,7 @@
             <span class="header_heading">Codewars | stats</span>
         </div>
 
-         <button class="header_name" on:click={showLinks} title="CHANGE MEEEEEEE">v - excelsior</button>
+         <button class="header_name" on:click={showLinks} title="My socials">v - excelsior</button>
     </div>
 </header>
 
@@ -62,9 +62,29 @@
     }
 
     &_name {
+      display: block;
+      outline:none;
+      border: none;
+      cursor:pointer;
+      background-color: transparent;
+
       font-size: 24px;
       padding: 0 20px 6px;
       color: $accent;
+
+      &:after{
+        display: block;
+        content: '';
+        width: 0px;
+        height:2px;
+        background-color: $accent;
+        transition: width 0.2s;
+      }
+
+      &:hover:after{
+        width: 100%;
+
+      }
 
       @include screen('max', $M) {
         font-size: 16px;
