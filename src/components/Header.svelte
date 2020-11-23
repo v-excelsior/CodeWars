@@ -72,18 +72,17 @@
       padding: 0 20px 6px;
       color: $accent;
 
-      &:after{
+      &:after {
         display: block;
         content: '';
         width: 0px;
-        height:2px;
+        height: 2px;
         background-color: $accent;
         transition: width 0.2s;
       }
 
-      &:hover:after{
+      &:hover:after {
         width: 100%;
-
       }
 
       @include screen('max', $M) {
