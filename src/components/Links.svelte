@@ -11,16 +11,14 @@
   }]
 </script>
 
-<ul class="links-list">
-    {#each links as link}
-        <li class="link">
-            <a href={link.url} class="">{link.text}</a>
-        </li>
-    {/each}
-</ul>
-
 <template>
-
+    <ul class="links-list">
+        {#each links as link}
+            <li class="link">
+                <a href={link.url} class="">{link.text}</a>
+            </li>
+        {/each}
+    </ul>
 </template>
 
 <style lang="scss">
