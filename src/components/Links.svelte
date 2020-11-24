@@ -1,16 +1,22 @@
 <script>
+  const links = [{
+    url : 'https://github.com/v-excelsior',
+    text: 'Github'
+  }, {
+    url : 'https://t.me/v_excelsior',
+    text: 'Telegram'
+  }, {
+    url : 'https://www.codewars.com/users/Sicely',
+    text: 'Codewars'
+  }]
 </script>
 
 <ul class="links-list">
-    <li class="link">
-        <a href="https://github.com/v-excelsior" class="">Github</a>
-    </li>
-    <li class="link">
-        <a href="https://t.me/v_excelsior">Telegram</a>
-    </li>
-    <li class="link">
-        <a href="https://www.codewars.com/users/Sicely">Codewars</a>
-    </li>
+    {#each links as link}
+        <li class="link">
+            <a href={link.url} class="">{link.text}</a>
+        </li>
+    {/each}
 </ul>
 
 <template>
