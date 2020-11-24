@@ -32,7 +32,7 @@
         color:white;
         text-decoration: none;
 
-        &:hover{
+        &:hover, &:active, &:focus{
           color: $accent;
         }
       }

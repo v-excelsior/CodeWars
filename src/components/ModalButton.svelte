@@ -31,7 +31,7 @@
     background-color: transparent;
     transition: 0.2s;
 
-    &:hover {
+    &:hover, &:active, &:focus {
       color: $accent;
       transform: rotate(135deg);
     }
