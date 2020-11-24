@@ -1,24 +1,37 @@
 <script>
-  import { getContext } from 'svelte';
+  import { getContext } from 'svelte'
+
   import Links from './Links.svelte'
+  import ModalButton from './ModalButton.svelte'
 
-  const { open } = getContext('simple-modal');
+  const { open } = getContext('simple-modal')
 
-  const showLinks = () => {
-    open(Links, { message: "It's a modal!" });
-  }
+  const openModal = () => open(Links, {}, {
+    styleWindow: {
+      width          : '100%',
+      maxWidth       : '360px',
+      backgroundColor: '#303133'
+    },
+    closeButton: ModalButton
+  })
+
 </script>
 
-<header class="header">
-    <div class="header_content container">
-        <div class="header_main">
-            <img class="header_icon" src="assets/logo-36.png" alt="CodeWars logo">
-            <span class="header_heading">Codewars | stats</span>
-        </div>
+<template>
+    <header class="header">
+        <div class="header_content container">
+            <div class="header_main">
+                <img class="header_icon" src="assets/logo-36.png" alt="CodeWars logo">
+                <span class="header_heading">Codewars | stats</span>
+            </div>
 
-         <button class="header_name" on:click={showLinks} title="My socials">v - excelsior</button>
-    </div>
-</header>
+            <button class="header_name" on:click={openModal} title="My socials">
+                v - excelsior
+            </button>
+        </div>
+    </header>
+</template>
+
 
 <style lang="scss">
   @import './src/styles/vars.scss';
@@ -63,13 +76,13 @@
 
     &_name {
       display: block;
-      outline:none;
+      outline: none;
       border: none;
-      cursor:pointer;
+      cursor: pointer;
       background-color: transparent;
 
       font-size: 24px;
-      padding: 0 20px 6px;
+      padding: 0 20px 4px;
       color: $accent;
 
       &:after {
@@ -87,7 +100,11 @@
 
       @include screen('max', $M) {
         font-size: 16px;
-        padding: 0 8px;
+        padding: 0 8px 4px;
+
+        &:after {
+          height: 1px;
+        }
       }
     }
   }
