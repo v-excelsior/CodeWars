@@ -32,7 +32,7 @@
     list-style: none;
 
     .link {
-      margin: 4px auto;
+      margin: 6px auto;
 
       a {
         color:white;
