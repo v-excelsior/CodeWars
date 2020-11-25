@@ -1,3 +1,4 @@
+export default `
 const spiralize = function (size) {
     function floors(n) {
         let tower = []
@@ -34,4 +35,4 @@ const spiralize = function (size) {
         return tower
     }
     return (solution(floors(size)))
-}
+}`
