@@ -1,14 +1,5 @@
 <script>
-  const links = [{
-    url : 'https://github.com/v-excelsior',
-    text: 'Github'
-  }, {
-    url : 'https://t.me/v_excelsior',
-    text: 'Telegram'
-  }, {
-    url : 'https://www.codewars.com/users/Sicely',
-    text: 'Codewars'
-  }]
+  import  links from '../data/social.json'
 </script>
 
 <template>
