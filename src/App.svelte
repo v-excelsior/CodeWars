@@ -14,8 +14,7 @@
 		</Modal>
 		<pre class="x"><code>
 						{cata}
-			</code></pre>
-		<h1 class="xxx">Hello!</h1>
+		</code></pre>
 		<Card/>
 	</main>
 </template>
