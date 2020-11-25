@@ -4,7 +4,7 @@
 
 	import cata from './catas/JavaScript/3__Make_a_spiral'
 
-	console.log(cata)
+	//TODO: use Prism.js
 </script>
 
 <template>
