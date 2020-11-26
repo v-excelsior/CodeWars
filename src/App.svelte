@@ -12,7 +12,7 @@
 		<Modal>
 			<Header/>
 		</Modal>
-		<pre class="language-javascript"><code>
+		<pre class="language-javascript code"><code>
 			{cata.code}
 		</code></pre>
 		<Card/>
@@ -22,16 +22,8 @@
 <style lang="scss">
 	@import './src/styles/vars.scss';
 
-	pre, code {
-		font-family: monospace, monospace;
-	}
-	pre {
-		overflow: auto;
-	}
-	pre > code {
-		display: block;
-		padding: 1rem;
-		word-wrap: normal;
+	.code > * {
+		font-family: 'Code';
 	}
 
 	.app-content {
