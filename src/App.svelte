@@ -12,7 +12,7 @@
 		<Modal>
 			<Header/>
 		</Modal>
-		<pre class="x"><code>
+		<pre class="language-javascript"><code>
 						{cata}
 		</code></pre>
 		<Card/>
