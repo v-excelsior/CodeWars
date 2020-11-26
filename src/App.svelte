@@ -13,7 +13,7 @@
 			<Header/>
 		</Modal>
 		<pre class="language-javascript"><code>
-						{cata}
+			{cata.code}
 		</code></pre>
 		<Card/>
 	</main>

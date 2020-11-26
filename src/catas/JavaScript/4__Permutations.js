@@ -1,3 +1,6 @@
+export default {
+
+code:`
 function permutations(string) {
     function permutation(array) {
         if (array.length > 1) {
@@ -21,4 +24,6 @@ function permutations(string) {
     let answ = permutation(arr)
     answ = [...new Set(answ.map((el) => el.join('')))]
     return answ
+}`
 }
+

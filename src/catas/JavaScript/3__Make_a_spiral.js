@@ -1,4 +1,7 @@
-export default `
+export default {
+  name: 'Make a spiral',
+  q   : 3,
+  code: `
 const spiralize = function (size) {
     function floors(n) {
         let tower = []
@@ -36,3 +39,5 @@ const spiralize = function (size) {
     }
     return (solution(floors(size)))
 }`
+}
+
