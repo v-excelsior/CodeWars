@@ -1,3 +1,4 @@
+const code = `
 function solution(list){
  let answ = []
  for (let i = 0; i < list.length; i++){
@@ -16,4 +17,11 @@ function solution(list){
    }
   }
 return answ.join(',')
+}`
+
+export default {
+  lang:'JS',
+  name:'The Observed Pin',
+  q: 4,
+  code
 }
