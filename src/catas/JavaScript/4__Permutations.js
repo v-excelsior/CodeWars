@@ -1,6 +1,4 @@
-export default {
-
-code:`
+const code = `
 function permutations(string) {
     function permutation(array) {
         if (array.length > 1) {
@@ -25,5 +23,11 @@ function permutations(string) {
     answ = [...new Set(answ.map((el) => el.join('')))]
     return answ
 }`
+
+export default {
+  name: 'Permutation',
+  q   : 4,
+  code
 }
+
 
