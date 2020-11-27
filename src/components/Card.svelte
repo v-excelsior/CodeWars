@@ -1,9 +1,13 @@
 <script lang="ts">
-    const name = 'buu'
+    export const cata
+
+    const {name, q, lang} = cata
 </script>
 
 <template>
-    <p>
-        Card here 123 231 {name}
-    </p>
+    <div>
+        <span>{name}</span>
+        <span>{q}</span>
+        <span>{lang}</span>
+    </div>
 </template>
