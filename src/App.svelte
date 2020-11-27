@@ -2,7 +2,7 @@
 	import Modal from 'svelte-simple-modal';
 	import { Card, Header } from './components'
 
-	import cata from './catas/JavaScript/3__Make_a_spiral'
+	import cata from './catas/JavaScript/3_make_a_spiral'
 
 	//TODO: use Prism.js
 </script>

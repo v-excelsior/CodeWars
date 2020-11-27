@@ -38,6 +38,7 @@ var spiralize = function (size) {
 }`
 
 export default {
+  lang:'JS',
   name: 'Make a spiral',
   q   : 3,
   code
