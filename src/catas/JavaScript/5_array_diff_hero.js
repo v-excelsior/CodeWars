@@ -1,6 +1,6 @@
 export default {
   lang: 'JS',
-  name: '',
+  name: 'Array diff hero',
   q   : 5,
   code
 }

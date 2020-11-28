@@ -1,3 +1,11 @@
+export default {
+  lang: 'JS',
+  name: 'Josephus permutation',
+  q   : 5,
+  code
+}
+
+const code = `
 function josephus(items,k){
   let answ = [],pos = 0
   while(items.length){
@@ -7,4 +15,4 @@ function josephus(items,k){
     answ.push(items.shift())
   }
   return answ
-}
+}`
