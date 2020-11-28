@@ -1,10 +1,3 @@
-export default {
-  lang: 'JS',
-  name: 'Josephus permutation',
-  q   : 5,
-  code
-}
-
 const code = `
 function josephus(items,k){
   let answ = [],pos = 0
@@ -16,3 +9,10 @@ function josephus(items,k){
   }
   return answ
 }`
+
+export default {
+  lang: 'JS',
+  name: 'Josephus permutation',
+  q   : 5,
+  code
+}
