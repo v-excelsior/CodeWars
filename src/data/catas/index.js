@@ -8,7 +8,7 @@ import josephus_permutation from './5_josephus_permutation'
 import build_tower from './6_build_tower'
 import dubstep from './6_dubstep'
 
-export default {
+export default [
   make_a_spiral,
   permutations,
   range_extration,
@@ -18,4 +18,4 @@ export default {
   josephus_permutation,
   build_tower,
   dubstep
-}
+]

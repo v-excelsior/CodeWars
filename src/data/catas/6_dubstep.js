@@ -4,6 +4,7 @@ function songDecoder(song){
 }`
 
 export default {
+  lang: 'JS',
   name: 'Make a spiral',
   q   : 3,
   code
