@@ -5,18 +5,17 @@
 	import cata from './data/catas/3_make_a_spiral'
 </script>
 
-<template>
-	<main class="app-content">
-		<Modal>
-			<Header/>
-		</Modal>
-		<Gallery/>
-		<pre class="language-javascript code"><code>
+
+<main class="app-content">
+	<Modal>
+		<Header/>
+	</Modal>
+	<Gallery/>
+	<pre class="language-javascript code"><code>
 			{cata.code}
 		</code></pre>
-		<Card/>
-	</main>
-</template>
+	<Card/>
+</main>
 
 <style lang="scss">
 	@import './src/styles/vars.scss';

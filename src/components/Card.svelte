@@ -4,13 +4,11 @@
   console.log(data)
 </script>
 
-<template>
-    <div class="card">
-        <span>{data?.lang}</span><br>
-        <span>{data?.name}</span><br>
-        <span>{data?.q}</span><br>
-    </div>
-</template>
+<div class="card">
+    <span>{data?.lang}</span><br>
+    <span>{data?.name}</span><br>
+    <span>{data?.q}</span><br>
+</div>
 
 <style lang="scss">
   .card {

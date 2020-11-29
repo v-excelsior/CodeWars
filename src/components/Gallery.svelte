@@ -4,8 +4,8 @@
   import catas from '../data/catas'
 </script>
 
-    {#each catas as cata}
-        <p>
-            <Card data={cata}/>
-        </p>
-    {/each}
+{#each catas as cata}
+    <p>
+        <Card data={cata}/>
+    </p>
+{/each}
