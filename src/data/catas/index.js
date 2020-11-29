@@ -18,5 +18,6 @@ export default [
   array_diff_hero,
   josephus_permutation,
   build_tower,
-  dubstep
+  dubstep,
+  two_fighters_one_winner
 ]
