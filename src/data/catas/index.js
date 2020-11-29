@@ -7,6 +7,7 @@ import array_diff_hero from './5_array_diff_hero'
 import josephus_permutation from './5_josephus_permutation'
 import build_tower from './6_build_tower'
 import dubstep from './6_dubstep'
+import two_fighters_one_winner from './7_two_fighters_one_winner'
 
 export default [
   make_a_spiral,
