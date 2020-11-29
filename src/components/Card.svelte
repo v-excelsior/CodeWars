@@ -1,14 +1,14 @@
 <script>
   export let data
 
-  console.log(data.lang)
+  console.log(data)
 </script>
 
 <template>
     <div class="card">
-<!--        <span>{data?.lang || 'чу'}</span><br>-->
-<!--        <span>{data?.name || 'чу'}</span><br>-->
-<!--        <span>{data?.q || 'чу'}</span><br>-->
+        <span>{data?.lang}</span><br>
+        <span>{data?.name}</span><br>
+        <span>{data?.q}</span><br>
     </div>
 </template>
 
