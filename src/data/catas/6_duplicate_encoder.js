@@ -1,3 +1,4 @@
+const code = `
 function duplicateEncode(word){
    word = word.toLowerCase()
    let answ = []
@@ -9,4 +10,11 @@ function duplicateEncode(word){
      }
    }
    return answ.join('')
+}`
+
+export default {
+  lang: 'JS',
+  name: 'Duplicate encoder',
+  q   : 6,
+  code
 }
