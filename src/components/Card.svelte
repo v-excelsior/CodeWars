@@ -1,7 +1,7 @@
 <script>
   export let data
 
-  console.log(data)
+  console.log(data.lang)
 </script>
 
 <div class="card">

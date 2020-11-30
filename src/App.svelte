@@ -1,8 +1,6 @@
 <script>
 	import Modal from 'svelte-simple-modal';
 	import { Card, Header, Gallery } from './components'
-
-	import cata from './data/catas/3_make_a_spiral'
 </script>
 
 
@@ -11,10 +9,11 @@
 		<Header/>
 	</Modal>
 	<Gallery/>
-	<pre class="language-javascript code"><code>
-			{cata.code}
-		</code></pre>
-	<Card/>
+	<pre class="language-javascript code">
+		<code>
+			{'bla-bla'}
+		</code>
+	</pre>
 </main>
 
 <style lang="scss">

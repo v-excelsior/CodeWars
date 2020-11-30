@@ -25,7 +25,7 @@ function permutations(string) {
 }`
 
 export default {
-  lang:'JS',
+  lang: 'JS',
   name: 'Permutation',
   q   : 4,
   code

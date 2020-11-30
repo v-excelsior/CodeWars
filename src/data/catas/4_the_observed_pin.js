@@ -24,7 +24,7 @@ function getPINs(observed) {
 }`
 
 export default {
-  lang:'JS',
+  lang: 'JS',
   name:'The Observed Pin',
   q: 4,
   code

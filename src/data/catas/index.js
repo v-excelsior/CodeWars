@@ -2,6 +2,7 @@ import make_a_spiral from './3_make_a_spiral'
 import permutations from './4_permutations'
 import range_extration from './4_range_extration'
 import strip_comments from './4_strip_comments'
+import sum_of_intervals from './4_sum_of_intervals'
 import the_observed_pin from './4_the_observed_pin'
 import array_diff_hero from './5_array_diff_hero'
 import josephus_permutation from './5_josephus_permutation'
@@ -14,6 +15,7 @@ export default [
   permutations,
   range_extration,
   strip_comments,
+  sum_of_intervals,
   the_observed_pin,
   array_diff_hero,
   josephus_permutation,

@@ -13,7 +13,7 @@ function solution(input, markers) {
 }`
 
 export default {
-  lang:'JS',
+  lang: 'JS',
   name:'Strip Coments',
   q:4,
   code
