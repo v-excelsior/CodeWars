@@ -9,6 +9,7 @@ import josephus_permutation from './5_josephus_permutation'
 import build_tower from './6_build_tower'
 import duplicate_encoder from './6_duplicate_encoder'
 import number_zoo_patrol from './6_number_zoo_patrol'
+import parse_bank_account_number from './6_parse_bank_account_number'
 import dubstep from './6_dubstep'
 import unique_in_order from './6_unique_in_order'
 import your_order_please from './6_your_order_please'
@@ -26,6 +27,7 @@ export default [
   build_tower,
   duplicate_encoder,
   number_zoo_patrol,
+  parse_bank_account_number,
   dubstep,
   unique_in_order,
   your_order_please,

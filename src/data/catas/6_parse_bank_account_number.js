@@ -1,3 +1,4 @@
+const code = `
 const nums = ['     |  |',' _  _||_ ',' _  _| _|','   |_|  |',' _ |_  _|',' _ |_ |_|',' _   |  |',' _ |_||_|',' _ |_| _|']
 
 function parseBankAccount(bankAccount) {
@@ -12,4 +13,11 @@ function parseBankAccount(bankAccount) {
     answ.push(nums.indexOf(number)+1)
   }
   return parseInt(answ.join(''))
+}`
+
+export default {
+  lang: 'JS',
+  name: 'Parse bank account number',
+  q   : 6,
+  code
 }
