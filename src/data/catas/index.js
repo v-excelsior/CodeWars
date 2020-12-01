@@ -8,6 +8,7 @@ import array_diff_hero from './5_array_diff_hero'
 import josephus_permutation from './5_josephus_permutation'
 import build_tower from './6_build_tower'
 import duplicate_encoder from './6_duplicate_encoder'
+import number_zoo_patrol from './6_number_zoo_patrol'
 import dubstep from './6_dubstep'
 import unique_in_order from './6_unique_in_order'
 import your_order_please from './6_your_order_please'
@@ -24,6 +25,7 @@ export default [
   josephus_permutation,
   build_tower,
   duplicate_encoder,
+  number_zoo_patrol,
   dubstep,
   unique_in_order,
   your_order_please,
