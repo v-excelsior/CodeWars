@@ -9,6 +9,7 @@ import josephus_permutation from './5_josephus_permutation'
 import build_tower from './6_build_tower'
 import duplicate_encoder from './6_duplicate_encoder'
 import dubstep from './6_dubstep'
+import unique_in_order from './6_unique_in_order'
 import your_order_please from './6_your_order_please'
 import two_fighters_one_winner from './7_two_fighters_one_winner'
 
@@ -24,6 +25,7 @@ export default [
   build_tower,
   duplicate_encoder,
   dubstep,
+  unique_in_order,
   your_order_please,
   two_fighters_one_winner
 ]
