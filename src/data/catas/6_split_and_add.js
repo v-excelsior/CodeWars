@@ -1,3 +1,6 @@
+
+Split and then add both sides of an array together
+const code = `
 function splitAndAdd(arr, n) {
   for ( let i = 0; i < n; i++){
   let pivot = Math.floor(arr.length) / 2
@@ -7,4 +10,4 @@ function splitAndAdd(arr, n) {
   arr = arr2.reverse()
   }
   return arr
-}
+}`
