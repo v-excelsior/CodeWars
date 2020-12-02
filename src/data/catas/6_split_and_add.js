@@ -1,5 +1,5 @@
 
-Split and then add both sides of an array together
+
 const code = `
 function splitAndAdd(arr, n) {
   for ( let i = 0; i < n; i++){
@@ -11,3 +11,10 @@ function splitAndAdd(arr, n) {
   }
   return arr
 }`
+
+export default {
+  lang: 'JS',
+  name:'Split and then add both sides of an array together',
+  q:6,
+  code
+}
