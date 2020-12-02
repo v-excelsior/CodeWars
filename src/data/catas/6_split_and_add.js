@@ -1,5 +1,3 @@
-
-
 const code = `
 function splitAndAdd(arr, n) {
   for ( let i = 0; i < n; i++){

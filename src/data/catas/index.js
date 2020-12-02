@@ -28,6 +28,7 @@ export default [
   duplicate_encoder,
   number_zoo_patrol,
   parse_bank_account_number,
+  split_and_add,
   dubstep,
   unique_in_order,
   your_order_please,
