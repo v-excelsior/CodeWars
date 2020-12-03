@@ -4,7 +4,7 @@ function solution(input, markers) {
   for (let mark of markers){
     input.forEach( (el,index) =>{
       let pivot = el.indexOf(mark)
-      input[index] =  el.substring(0, pivot!==-1?pivot:999).trim();
+      input[index] =  el.substring(0, pivot !== -1 ? pivot : 999).trim()
     })
   }
   input = input.join('\n').trim()
