@@ -27,7 +27,9 @@
         color:white;
         text-decoration: none;
 
-        &:hover, &:active, &:focus{
+        &:hover,
+        &:active,
+        &:focus{
           color: $accent;
         }
       }
