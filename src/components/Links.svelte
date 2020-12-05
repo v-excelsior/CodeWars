@@ -1,5 +1,5 @@
 <script>
-  import  links from '../data/social.json'
+  import links from '../data/social.json'
 </script>
 
 <template>
@@ -29,7 +29,7 @@
 
         &:hover,
         &:active,
-        &:focus{
+        &:focus {
           color: $accent;
         }
       }
