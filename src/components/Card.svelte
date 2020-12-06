@@ -1,14 +1,17 @@
 <script>
   export let data
 
-  import js_icon from '../../public/assets/js.svg'
+  import Icon from './Icon.svelte'
+  import icons from './icon_map'
 
+  const { lang, name, q } = data
 </script>
 
 <div class="card">
-    <p>{data?.lang}</p>
-    <p>{data?.name}</p>
-    <p>{data?.q}</p>
+    <Icon IconImage={icons[lang]}/>
+    <p>{lang}</p>
+    <p>{name}</p>
+    <p>{q}</p>
 </div>
 
 <style lang="scss">
