@@ -1,5 +1,14 @@
-const code = `
-const nums = ['     |  |',' _  _||_ ',' _  _| _|','   |_|  |',' _ |_  _|',' _ |_ |_|',' _   |  |',' _ |_||_|',' _ |_| _|']
+const code = `const nums = [
+  '     |  |',
+  ' _  _||_ ',
+  ' _  _| _|',
+  '   |_|  |',
+  ' _ |_  _|',
+  ' _ |_ |_|',
+  ' _   |  |',
+  ' _ |_||_|',
+  ' _ |_| _|'
+]
 
 function parseBankAccount(bankAccount) {
     let answ = []

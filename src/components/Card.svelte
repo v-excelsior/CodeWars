@@ -1,17 +1,30 @@
 <script>
-  export let data
-
-  import Icon from './Icon.svelte'
   import icons from './icon_map'
 
-  const { lang, name, q } = data
+  import Icon from './Icon.svelte'
+  import Code from './Code.svelte'
+  import ModalButton from './ModalButton.svelte'
+
+  const { open } = getContext('simple-modal')
+  import { getContext } from 'svelte'
+
+  export let data
+  const { lang, name, q,code } = data
+
+  const openModal = () => open(Code, {code}, {
+    styleWindow: {
+      width          : '100%',
+      maxWidth       : '720px',
+      backgroundColor: '#303133'
+    },
+    closeButton: ModalButton
+  })
 </script>
 
-<div class="card">
+<div class="card" on:click={openModal}>
     <Icon IconImage={icons[lang]} class="cata-icon"/>
     <div class="q">{q}</div>
     <p>{name}</p>
-
 </div>
 
 <style lang="scss">

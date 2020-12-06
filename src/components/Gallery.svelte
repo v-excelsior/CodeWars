@@ -8,6 +8,3 @@
         <Card data={cata}/>
     {/each}
 </div>
-
-<style lang="scss">
-</style>

@@ -7,21 +7,12 @@
 <main class="app-content">
 	<Modal>
 		<Header/>
+		<Gallery/>
 	</Modal>
-	<Gallery/>
-	<pre class="language-javascript code">
-		<code>
-			{'bla-bla'}
-		</code>
-	</pre>
 </main>
 
 <style lang="scss">
 	@import './src/styles/vars.scss';
-
-	.code > * {
-		font-family: 'Code';
-	}
 
 	.app-content {
 		min-height: 100vh;

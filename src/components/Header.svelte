@@ -14,7 +14,6 @@
     },
     closeButton: ModalButton
   })
-
 </script>
 
 <template>
