@@ -10,5 +10,12 @@
   width:100%;
   gap:12px;
   padding:10px;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.cata-icon{
+  position: absolute;
+  right:4px;
+  top:4px;
+  width:24px;
 }

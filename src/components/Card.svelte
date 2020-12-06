@@ -8,19 +8,40 @@
 </script>
 
 <div class="card">
-    <Icon IconImage={icons[lang]}/>
-    <p>{lang}</p>
+    <Icon IconImage={icons[lang]} class="cata-icon"/>
+    <div class="q">{q}</div>
     <p>{name}</p>
-    <p>{q}</p>
+
 </div>
 
 <style lang="scss">
   @import "src/styles/vars";
 
   .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $surface-card;
     border-radius: 4px;
+    font-family: 'Code';
+    color:$text-primary;
+    padding:4px 30px;
+    min-height: 64px;
     text-align: center;
+    position: relative;
+
+    .q{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right:4px;
+      bottom:4px;
+      font-size: 20px;
+      width: 24px;
+      height: 24px;
+      color: $accent;
+    }
 
     &:hover{
       background-color:  $surface-card__hover;
