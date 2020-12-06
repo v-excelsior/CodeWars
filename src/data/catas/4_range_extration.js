@@ -1,5 +1,4 @@
-const code = `
-function solution(list){
+const code = `function solution(list){
  let answ = []
  for (let i = 0; i < list.length; i++){
    let cur = list[i]

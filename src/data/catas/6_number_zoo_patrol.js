@@ -1,5 +1,4 @@
-const code = `
-function findNumber(array) {
+const code = `function findNumber(array) {
   const sum = (array.length + 1) * (array.length + 2) / 2
   const actualSun = array.reduce((acc,el) => acc + el, 0)
   

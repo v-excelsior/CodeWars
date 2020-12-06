@@ -1,5 +1,4 @@
-const code = `
-const uniqueInOrder = function(iterable){
+const code = `const uniqueInOrder = function(iterable){
   if (!iterable.length) return []
   if (!Array.isArray(iterable)) iterable = iterable.split('')
   let answ = []

@@ -1,5 +1,4 @@
-const code =`
-const order = w => w.split(' ').sort((a,b) => a.match(/\d+/) - b.match(/\d+/)).join(' ')
+const code =`const order = w => w.split(' ').sort((a,b) => a.match(/\d+/) - b.match(/\d+/)).join(' ')
 `
 
 export default {

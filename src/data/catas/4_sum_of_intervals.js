@@ -1,5 +1,4 @@
-const code = `
-function sumIntervals(intervals){
+const code = `function sumIntervals(intervals){
   intervals.sort((i1,i2) => i1[0] - i2[0])
   for(let i = 1; i < intervals.length;){
     if(intervals[i][1] <= intervals[i-1][1]){

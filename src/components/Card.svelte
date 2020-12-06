@@ -3,21 +3,26 @@
 
   import Icon from './Icon.svelte'
   import Code from './Code.svelte'
-  import ModalButton from './ModalButton.svelte'
+  import { getContext } from 'svelte'
 
   const { open } = getContext('simple-modal')
-  import { getContext } from 'svelte'
 
   export let data
   const { lang, name, q,code } = data
 
   const openModal = () => open(Code, {code}, {
-    styleWindow: {
+    styleWindow : {
       width          : '100%',
       maxWidth       : '720px',
       backgroundColor: '#303133'
     },
-    closeButton: ModalButton
+    styleContent: {
+      padding: '2px',
+      borderRadius:'4px'
+    },
+    styleCloseButton:{
+      display:'none'
+    }
   })
 </script>
 
