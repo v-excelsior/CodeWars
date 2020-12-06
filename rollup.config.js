@@ -6,6 +6,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 
 import css from 'rollup-plugin-postcss';
+import svelteSVG from "rollup-plugin-svelte-svg";
 
 import autoPreprocess from 'svelte-preprocess';
 
@@ -42,6 +43,7 @@ export default {
 	},
 	plugins: [
 		json(),
+		svelteSVG(),
 		svelte({
 			preprocess: autoPreprocess({
 				defaults: { style: 'scss' }

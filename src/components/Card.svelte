@@ -1,20 +1,26 @@
 <script>
   export let data
 
-  console.log(data.lang)
+  import js_icon from '../../public/assets/js.svg'
+
 </script>
 
 <div class="card">
-    <span>{data?.lang}</span><br>
-    <span>{data?.name}</span><br>
-    <span>{data?.q}</span><br>
+    <p>{data?.lang}</p>
+    <p>{data?.name}</p>
+    <p>{data?.q}</p>
 </div>
 
 <style lang="scss">
+  @import "src/styles/vars";
+
   .card {
-    height: 200px;
-    width: 200px;
-    background-color: pink;
-    margin: 10px;
+    background-color: $surface-card;
+    border-radius: 4px;
+    text-align: center;
+
+    &:hover{
+      background-color:  $surface-card__hover;
+    }
   }
 </style>
