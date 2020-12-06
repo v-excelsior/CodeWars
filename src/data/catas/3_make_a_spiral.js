@@ -1,4 +1,5 @@
-const code = `var spiralize = function (size) {
+const code = `
+var spiralize = function (size) {
     function floors(n) {
         const tower = []
         for (let i = 0; i < n; i++) {

@@ -1,19 +1,29 @@
 <script>
-	export let code
+	export let code,name
+
+	console.log(window.Prism)
+	// window.Prism.highlight(document.querySelector('.code-popup'))
 </script>
 
-<div class="code">
-    <pre class="language-javascript code">
-		<code>
-			{code}
-		</code>
-	</pre>
-</div>
+<pre class="code-popup">
+	<div on:click={window.Prism.highlightAll()}/>
+	<h2 class="cata-name">{name}</h2>
+	<code class="language-javascript language-js">
+		{code}
+	</code>
+</pre>
 
 <style lang="scss">
 	@import '../styles/vars.scss';
+	.cata-name{
+		position: absolute;
+		font-size:30px;
+		left:50%;
+		transform: translateX(-50%);
+		top:10px;
+	}
 
-	.code {
+	.code-popup {
 		max-height: 70vh;
 
 		&::-webkit-scrollbar {

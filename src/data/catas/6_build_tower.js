@@ -1,4 +1,5 @@
-const code = `function towerBuilder(nFloors) {
+const code = `
+function towerBuilder(nFloors) {
   let floor = ''.repeat(nFloors
   2 - 1
 )

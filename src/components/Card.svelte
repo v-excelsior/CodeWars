@@ -10,7 +10,7 @@
   export let data
   const { lang, name, q,code } = data
 
-  const openModal = () => open(Code, {code}, {
+  const openModal = () => open(Code, {code,name}, {
     styleWindow : {
       width          : '100%',
       maxWidth       : '720px',

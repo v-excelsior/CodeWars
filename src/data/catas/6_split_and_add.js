@@ -1,4 +1,5 @@
-const code = `function splitAndAdd(arr, n) {
+const code = `
+function splitAndAdd(arr, n) {
   for ( let i = 0; i < n; i++){
   let pivot = Math.floor(arr.length) / 2
   let arr1 = arr.slice(0,pivot).reverse()
@@ -11,7 +12,7 @@ const code = `function splitAndAdd(arr, n) {
 
 export default {
   lang: 'JS',
-  name:'Split and then add both sides of an array together',
+  name:'Split and then add both sides',
   q:6,
   code
 }

@@ -1,4 +1,5 @@
-const code = `function songDecoder(song){
+const code = `
+function songDecoder(song){
   return song.split('WUB').filter(el => el !== '').join(' ')
 }`
 

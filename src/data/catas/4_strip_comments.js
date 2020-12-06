@@ -1,4 +1,5 @@
-const code = `function solution(input, markers) {
+const code = `
+function solution(input, markers) {
   input = input.split('\n')
   for (let mark of markers){
     input.forEach( (el,index) =>{

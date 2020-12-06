@@ -1,6 +1,6 @@
 <script>
 	import Modal from 'svelte-simple-modal';
-	import { Card, Header, Gallery } from './components'
+	import { Header, Gallery } from './components'
 </script>
 
 

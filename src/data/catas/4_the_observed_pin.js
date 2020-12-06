@@ -1,4 +1,5 @@
-const code = `function getPINs(observed) {
+const code = `
+function getPINs(observed) {
   if (observed === '') return []
   const neighbours = [
     ['8', '0'], ['1', '2', '4'], ['1', '2', '3', '5'], ['2', '3', '6'],

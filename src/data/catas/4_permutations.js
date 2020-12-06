@@ -1,4 +1,5 @@
-const code = `function permutations(string) {
+const code = `
+function permutations(string) {
     function permutation(array) {
         if (array.length > 1) {
             let firstElement = array[0]

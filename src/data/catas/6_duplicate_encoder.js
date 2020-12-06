@@ -1,4 +1,5 @@
-const code = `function duplicateEncode(word){
+const code = `
+function duplicateEncode(word){
    word = word.toLowerCase()
    let answ = []
    for (let el of word){

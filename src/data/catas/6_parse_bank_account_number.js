@@ -1,4 +1,5 @@
-const code = `const nums = [
+const code = `
+const nums = [
   '     |  |',
   ' _  _||_ ',
   ' _  _| _|',
