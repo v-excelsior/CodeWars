@@ -3787,7 +3787,7 @@ function parseBankAccount(bankAccount) {
       }
     }
 
-    var css_248z = ".container {\n  padding: 0 10px;\n  width: 100%;\n  max-width: 1280px;\n  margin: 0 auto; }\n\n.grid-gallery {\n  display: grid;\n  width: 100%;\n  gap: 12px;\n  padding: 10px;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }\n\n.cata-icon {\n  position: absolute;\n  right: 4px;\n  top: 4px;\n  width: 24px; }\n\n@font-face {\n  font-family: Code;\n  src: url(\"../public/assets/code.woff\"); }\n\n@font-face {\n  font-family: Main;\n  src: url(\"../public/assets/main.woff2\"); }\n\n* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\nbody, button {\n  font-family: 'Main'; }\n";
+    var css_248z = ".container {\n  padding: 0 10px;\n  width: 100%;\n  max-width: 1280px;\n  margin: 0 auto; }\n\n.grid-gallery {\n  display: grid;\n  width: 100%;\n  gap: 12px;\n  padding: 10px;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }\n\n.cata-icon {\n  position: absolute;\n  right: 4px;\n  top: 4px;\n  width: 24px; }\n\n* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\nbody, button {\n  font-family: 'Main'; }\n";
     styleInject(css_248z);
 
     var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
