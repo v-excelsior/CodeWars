@@ -12,7 +12,7 @@ function splitAndAdd(arr, n) {
 
 export default {
   lang: 'JS',
-  name:'Split and then add both sides',
+  name: 'Split and then add both sides',
   q:6,
   code
 }
